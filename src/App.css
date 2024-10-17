@@ -1,0 +1,52 @@
+/* src/App.css */
+
+.calculator {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .calculator h1 {
+    margin-bottom: 20px;
+  }
+  
+  .calculator input {
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .buttons button {
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .buttons button:active {
+    background-color: #c0c0c0;
+  }
+  
